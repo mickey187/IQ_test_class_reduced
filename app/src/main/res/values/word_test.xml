@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Question 1-->
+
+    <string name="WT_Q_1">
+           \n
+    1.What is the missing number 4, 8, 14, 22 ?
+    </string>
+
+    <!-- Question 1 choices-->
+    <string name="WT_Q_1_C1">
+
+        26
+    </string>
+
+    <string name="WT_Q_1_C2">
+
+        28
+    </string>
+
+    <string name="WT_Q_1_C3">
+
+        32
+    </string>
+
+    <string name="WT_Q_1_C4">
+
+        36
+    </string>
+
+    <string name="WT_Q_1_C5">
+
+        40
+    </string>
+
+    <!-- Question 2 -->
+
+    <string name="WT_Q_2">
+        \n
+        2. One word in this list does not belong to the same
+         \n
+        group:
+
+        Yen, Pound, Franc, Penny, Mark.
+    </string>
+
+    <!-- Question 2 choice-->
+
+    <string name="WT_Q_2_C1">
+        Yen
+    </string>
+
+    <string name="WT_Q_2_C2">
+        Pound
+    </string>
+
+    <string name="WT_Q_2_C3">
+        Franc
+    </string>
+
+    <string name="WT_Q_2_C4">
+        Penny
+    </string>
+
+    <string name="WT_Q_2_C5">
+        Mark
+    </string>
+
+    <!--Question 3 -->
+
+    <string name="WT_Q_3">
+        \n
+        3. Finish the sentence, Gym is healthy as Book is to?
+    </string>
+
+    <!-- Question 3 choices-->
+
+    <string name="WT_Q_3_C1">
+        Good
+    </string>
+
+
+    <string name="WT_Q_3_C2">
+        Intelligent
+    </string>
+
+    <string name="WT_Q_3_C3">
+         Fluent
+    </string>
+
+
+    <string name="WT_Q_3_C4">
+        Knowledgeable
+    </string>
+
+    <string name="WT_Q_3_C5">
+        Smart
+    </string>
+
+    <!-- Question 4-->
+
+    <string name="WT_Q_4">
+       4. One word in this list does not belong to the same group: Receiver, Reviver, Race car, Radar
+    </string>
+
+    <!-- Question 4 choices-->
+
+    <string name="WT_Q_4_C1">
+    Receiver
+    </string>
+
+    <string name="WT_Q_4_C2">
+    Reviver
+    </string>
+
+    <string name="WT_Q_4_C3">
+    Racecar
+    </string>
+
+    <string name="WT_Q_4_C4">
+        Radar
+    </string>
+
+    <!-- Question 5-->
+
+    <string name="WT_Q_5">
+        \n
+        5. A totally wonderful phrase has been
+        \n
+        sliced up into six three-letter groups
+        \n
+        which are then arranged in random
+        \n
+        order. What is the phrase?
+        \n
+            BUL    YFA     OLU
+        \n
+            ABS    TEL     OUS
+    </string>
+
+    <!-- Question 6-->
+
+    <string name="WT_Q_6">
+       6. Which two words are the closest in
+        meaning?
+    </string>
+
+    <!--Question 6 choice-->
+
+    <string name="WT_Q_6_C1">
+        FEASIBLE
+    </string>
+
+    <string name="WT_Q_6_C2">
+        FLIMSY
+    </string>
+
+    <string name="WT_Q_6_C3">
+        POSSIBLE
+    </string>
+
+    <string name="WT_Q_6_C4">
+        ABUNDANT
+    </string>
+
+    <string name="WT_Q_6_C5">
+        COMPREHENSIVE
+    </string>
+
+    <string name="WT_Q_6_C6">
+        EXTRAVAGANT
+    </string>
+
+    <!-- Question 7-->
+
+    <string name="WT_Q_7">
+        \n
+        7. The same four-letter word when
+        \n
+        inserted in front of the words
+        \n
+        listed will produce six well-known
+        \n
+        phrases. What is the word?
+
+              \n \t\t\t\t         _______PROGRESS
+              \n \t\t\t\t         _______BELIEVE
+              \n \t\t\t\t         _______HASTE
+              \n \t\t\t\t         _______CLEAR
+              \n  \t\t\t\t        _______OVER
+              \n  \t\t\t\t        _______SENSE
+
+    </string>
+
+    <!-- Question 8-->
+
+    <string name="WT_Q_8">
+        \n
+        What word can be placed in front
+        \n
+        of date, kind and power to create
+        \n
+        three new words?
+    </string>
+
+
+
+
+
+
+
+
+</resources>

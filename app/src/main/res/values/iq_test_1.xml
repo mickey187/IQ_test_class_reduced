@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Q1-->
+
+    <string name="iq_test_Q1">
+        1. The white dot moves two places anti-clockwise at each stage and
+        the black dot moves one place clockwise at each stage. After how
+        many stages will they be together in the same corner?
+    </string>
+
+    <!--Q2-->
+
+    <string name="iq_test_Q2">
+        \n
+
+        2.                 \t\t\t\t\t\t\t\t\t  72496 is to 1315
+        \n
+                            \t\t\t\t\t\t\t\t\t\t\t 62134 is to 97
+        \n
+           \t\t and              \t\t\t\t\t 85316 is to 167
+        \n
+            therefore \t\t28439 is to ?
+    </string>
+
+    <!--Q3-->
+
+    <string name="iq_test_Q3">
+        3. Put the following words into alphabetical order:
+        \n
+          1.arthropod, 2.artificer, 3.arteriole, 4.artichoke, 5.arthritis, 6.articular,
+          7.artillery, 8.arthritic
+        \n
+        arrange them using their respective numbers
+    </string>
+
+       <!--Q4-->
+
+    <string name="iq_test_Q4">
+       4. Which two words are most opposite in meaning?
+         imaginary, realistic, illegible, impracticable, radical, embellished
+    </string>
+
+    <string name="iq_test_Q4_CH1">
+        imaginary
+    </string>
+
+    <string name="iq_test_Q4_CH2">
+        realistic
+    </string>
+
+    <string name="iq_test_Q4_CH3">
+        illegible
+    </string>
+
+    <string name="iq_test_Q4_CH4">
+        impracticable
+    </string>
+
+    <string name="iq_test_Q4_CH5">
+        radical
+    </string>
+
+    <string name="iq_test_Q4_CH6">
+        embellished
+    </string>
+
+
+
+    <!--Q5-->
+
+    <string name="iq_test_Q5">
+        5. What numbers should replace the question marks?
+    </string>
+
+    <!--Q6-->
+
+    <string name="iq_test_Q6">
+        6. Which group of letters is the odd one out?
+    </string>
+
+    <string name="iq_test_Q6_CH_1">
+        CEFH
+    </string>
+
+    <string name="iq_test_Q6_CH_2">
+        HJKN
+    </string>
+
+    <string name="iq_test_Q6_CH_3">
+        LNOQ
+    </string>
+
+    <string name="iq_test_Q6_CH_4">
+        PRSU
+    </string>
+
+    <string name="iq_test_Q6_CH_5">
+        UWXZ
+    </string>
+
+    <string name="iq_test_Q6_CH_6">
+        DFGI
+    </string>
+
+
+
+    <!--Q7-->
+
+    <string name="iq_test_Q7">
+        7. Identify two words (one from each set of brackets) that form a
+           connection (analogy) when paired with the words in capitals.
+           RESTRAIN (suppress, deny, conceal)
+
+    </string>
+
+    <string name="iq_test_Q7_additional1">
+        RESTRAIN (suppress, deny, conceal)
+    </string>
+
+    <string name="iq_test_Q7_part1_CH1">
+        suppress
+    </string>
+
+    <string name="iq_test_Q7_part1_CH2">
+        deny
+    </string>
+
+    <string name="iq_test_Q7_part1_CH3">
+        conceal
+    </string>
+
+    <string name="iq_test_Q7_additional2">
+        WITHHOLD (curb, reserve, conceal)
+    </string>
+
+    <string name="iq_test_Q7_part2_CH1">
+        curb
+    </string>
+
+    <string name="iq_test_Q7_part2_CH2">
+        reserve
+    </string>
+
+    <string name="iq_test_Q7_part2_CH3">
+        conceal
+    </string>
+
+    <!--Q8-->
+
+    <string name="iq_test_Q8">
+
+        Which figure should replace the question mark?
+    </string>
+    <string name="iq_test_Q8_CH1">
+        A
+    </string>
+
+
+    <string name="iq_test_Q8_CH2">
+        B
+    </string>
+
+    <string name="iq_test_Q8_CH3">
+        C
+    </string>
+
+    <string name="iq_test_Q8_CH4">
+        D
+    </string>
+
+
+    <!--Q9-->
+
+    <string name="iq_test_Q9">
+        9. Spell out a 12-letter word by moving from letter to adjacent
+           letter, horizontally and vertically (but not diagonally). You must
+           find the starting point and provide the missing letters.
+
+    </string>
+
+    <!--Q10-->
+
+    <string name="iq_test_Q_10">
+        10. What numbers should replace the question marks? \n
+        100, 95, ?, 79, 68, ?, 40, 23
+    </string>
+
+
+    <!--Q11-->
+
+    <string name="iq_test_Q_11">
+        11. Associate is to colleague as accomplice is to:
+    </string>
+
+    <string name="iq_test_Q_11_CH1">
+        consort
+    </string>
+
+    <string name="iq_test_Q_11_CH2">
+         friend
+    </string>
+
+    <string name="iq_test_Q_11_CH3">
+        accessory
+    </string>
+
+    <string name="iq_test_Q_11_CH4">
+        comrade
+    </string>
+
+    <string name="iq_test_Q_11_CH5">
+        follower
+    </string>
+
+    <!--Q12-->
+
+    <string name="iq_test_Q_12">
+        12. Which is the odd one out?
+    </string>
+
+    <string name="iq_test_Q_12_CH1">
+        famous
+    </string>
+
+    <string name="iq_test_Q_12_CH2">
+         illustrious
+    </string>
+
+    <string name="iq_test_Q_12_CH3">
+         acclaimed
+    </string>
+
+    <string name="iq_test_Q_12_CH4">
+        fabulous
+    </string>
+
+    <string name="iq_test_Q_12_CH5">
+         noteworthy
+    </string>
+
+    <!--Q13-->
+
+    <string name="iq_test_Q_13">
+        13. What number should replace the question mark?
+    </string>
+
+    <!--Q14-->
+
+    <string name="iq_test_Q_14">
+        14. Which is the odd one out?
+    </string>
+
+    <!--Q15-->
+
+    <string name="iq_test_Q_15">
+        15. GAINED VOTE is an anagram of which two words that are
+        similar in meaning?
+    </string>
+
+    <!--Q16-->
+
+    <string name="iq_test_Q_16">
+        16. What number should replace the question mark?
+    </string>
+
+    <!--Q17-->
+
+    <string name="iq_test_Q_17">
+        17 Which word in brackets is most opposite in meaning to the word
+        in capitals?
+        \n
+        MITIGATE (augment, palliate, appreciate, trust, destroy)
+
+    </string>
+
+    <string name="iq_test_Q_17_CH1">
+        augment
+    </string>
+
+    <string name="iq_test_Q_17_CH2">
+        palliate
+    </string>
+
+    <string name="iq_test_Q_17_CH3">
+        appreciate
+    </string>
+
+    <string name="iq_test_Q_17_CH4">
+        trust
+    </string>
+
+    <string name="iq_test_Q_17_CH5">
+        destroy
+    </string>
+    <!--Q18-->
+
+    <string name="iq_test_Q_18">
+        Which shape below is identical to the shape above?
+    </string>
+
+    <!--Q19-->
+
+    <string name="iq_test_Q_19">
+        19 Which two words are closest in meaning?
+        educated, clear, literal, enervated, wordy, verbatim
+    </string>
+
+    <string name="iq_test_Q_19_CH1">
+        educated
+    </string>
+
+    <string name="iq_test_Q_19_CH2">
+        clear
+    </string>
+
+    <string name="iq_test_Q_19_CH3">
+        literal
+    </string>
+
+    <string name="iq_test_Q_19_CH4">
+        enervated
+    </string>
+
+    <string name="iq_test_Q_19_CH5">
+        wordy
+    </string>
+
+    <string name="iq_test_Q_19_CH6">
+        verbatim
+    </string>
+
+
+    <!--Q20-->
+
+    <string name="iq_test_Q_20">
+        20. What number should replace the question mark?
+    </string>
+
+    <!--Q21-->
+
+    <string name="iq_test_Q_21">
+        is to
+    </string>
+
+    <!--Q22-->
+
+    <string name="iq_test_Q_22">
+        22. What letter is three to the right of the letter immediately to the
+        left of the letter which is four to the left of the letter G?
+        \n
+            A \t\t\t  B  \t\t\t  C  \t\t\t D  \t\t\t E  \t\t\t F   \t\t\t G \t\t\t  H
+    </string>
+
+    <!--Q23-->
+
+    <string name="iq_test_Q_23">
+       23. Which word in brackets is closest in meaning to the word in
+           capitals?
+           HABITUATED (constant, accustomed, colonized,
+        \n
+           commonplace, energetic)
+    </string>
+
+    <string name="iq_test_Q23_CH1">
+        constant
+    </string>
+
+    <string name="iq_test_Q23_CH2">
+        accustomed
+    </string>
+
+    <string name="iq_test_Q23_CH3">
+        colonized
+    </string>
+
+    <string name="iq_test_Q23_CH4">
+        commonplace
+    </string>
+
+    <string name="iq_test_Q23_CH5">
+        energetic
+    </string>
+
+    <!--Q24-->
+
+    <string name="iq_test_Q_24">
+      Which is the missing tile?
+    </string>
+
+    <!--Q25-->
+
+    <string name="iq_test_Q_25">
+     25. When full, a barrel of water contains 85 litres. How many litres
+     remain after 40% has been used? (the use of a calculator is not
+     permitted in this question).?
+    </string>
+
+    <!--Q26-->
+
+    <string name="iq_test_Q_26">
+    26. DECISIVE LARK is an anagram of which two words that are
+        opposite in meaning?
+    </string>
+
+    <!--Q28-->
+
+    <string name="iq_test_Q_28">
+   28 What number should replace the question mark?
+        \n
+        0, 19, 38, 57, ?, 95
+    </string>
+
+    <!--Q29-->
+
+    <string name="iq_test_Q_29">
+   What comes next?
+    </string>
+
+    <!--Q30-->
+
+    <string name="iq_test_Q_30">
+   30. What number should replace the question mark?
+    </string>
+
+    <!--Q31-->
+
+    <string name="iq_test_Q_31">
+   31. Switch A turns lights 1 and 2 on=off or off=on.
+        \n
+       Switch B turns lights 2 and 4 on=off or off=on.
+        \n
+       Switch C turns lights 1 and 3 on=off or off=on.
+    </string>
+
+    <string name="iq_test_Q_31_1">
+   Switches A, C and B are thrown in turn, with the result that
+   Figure 1 turns into Figure 2. Which of the switches A, B or C
+   must, therefore, be faulty?
+
+    </string>
+
+    <!--Q32-->
+
+    <string name="iq_test_Q_32">
+       32. Which is the odd one out?
+    </string>
+
+    <!--Q33-->
+
+    <string name="iq_test_Q_33">
+       33. What number should replace the question mark?
+    </string>
+
+    <!--Q34-->
+
+    <string name="iq_test_Q_34">
+       Which is the missing tile?
+    </string>
+
+    <!--Q35-->
+
+    <string name="iq_test_Q_35">
+       35. Start at one of the four corner letters and spiral clockwise round
+           the perimeter, finishing at the centre letter to spell out a
+           nine-letter word. You must provide the missing letters.
+    </string>
+
+    <!--Q36-->
+
+    <string name="iq_test_Q_36">
+       36. What number should replace the question mark?
+           10, 21, 33, 46, 60, 75, ?
+
+    </string>
+
+    <!--Q37-->
+
+    <string name="iq_test_Q_37">
+       When the above is folded to form a cube, which is the only one
+       of the following that can be produced?
+
+    </string>
+
+    <!--Q38-->
+
+    <string name="iq_test_Q_38">
+       38. Joe has one and a half times as many as Mo, and Mo has one and
+       a half times as many as Flo. Altogether they have 76. How many
+       has each?
+
+    </string>
+
+    <!--Q39-->
+
+    <string name="iq_test_Q_39">
+       39. Which one of the following sentences is correct?
+        \n
+
+
+
+
+
+
+
+
+    </string>
+
+    <string name="iq_test_39_CH1">
+         The Gardener’s Association debated whether to hold it’s
+        \n
+bi-annual flower show at the beginning of April and
+        \n
+September, or at the end of April and September each year.
+        \n
+
+    </string>
+
+    <string name="iq_test_39_CH2">
+             The Gardeners’ Association debated whether to hold its
+        \n
+         biennial flower show at the beginning of April and September,
+        \n
+         or at the end of April and September each year.
+        \n
+
+    </string>
+
+    <string name="iq_test_39_CH3">
+
+         The Gardeners’ Association debated whether to hold it’s
+        \n
+bi-annual flower show at the beginning of April and
+        \n
+September, or at the end of April and September each year.
+        \n
+
+
+    </string>
+
+    <string name="iq_test_39_CH4">
+
+         The Gardeners’ Association debated whether to hold its
+        \n
+bi-annual flower show at the beginning of April and
+        \n
+September, or at the end of April and September each year.
+        \n
+
+
+    </string>
+
+    <string name="iq_test_39_CH5">
+
+         The Gardener’s Association debated whether to hold its
+        \n
+biennial flower show at the beginning of April and September,
+        \n
+or at the end of April and September each year.
+        \n
+
+    </string>
+
+    <string name="iq_test_39_CH6">
+
+         The Gardeners’ Association debated whether to hold it’s
+        \n
+bi-annual flower show at the beginning of April and
+        \n
+September, or at the end of April and September each year.
+        \n
+
+    </string>
+
+    <string name="iq_test_39_CH7">
+
+ The Gardener’s Association debated whether to hold it’s
+        \n
+biennial flower show at the beginning of April and September,
+        \n
+or at the end of April and September each year.
+        \n
+
+    </string>
+
+    <!--Q40-->
+
+    <string name="iq_test_Q_40">
+       40. What number should replace the question mark?
+
+    </string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

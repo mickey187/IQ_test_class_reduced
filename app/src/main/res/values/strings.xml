@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IQ test</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_scores">Scores</string>
+    <string name="nav_setting">Setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">IQ test category</string>
+    <string name="intro">IQ test category</string>
+    <string name="iq_category_one">Word Power</string>
+    <string name="enter_your_answer_here">enter your answer here</string>
+    <string name="next_question">Next Question</string>
+    <string name="show_score">show score</string>
+</resources>

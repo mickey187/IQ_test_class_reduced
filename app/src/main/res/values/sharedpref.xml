@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key">progress</string>
+
+
+    <integer name="default_value">0</integer>
+    <integer name="value2">1</integer>
+
+
+
+    <string name="score_key">score</string>
+    <integer name="default_score_value">0</integer>
+    <integer name="score1_value">20</integer>
+    <integer name="score2_value">40</integer>
+    <integer name="score3_value">60</integer>
+    <integer name="score4_value">80</integer>
+
+    <string name="counter_key">key</string>
+    <integer name="default_counter_value">0</integer>
+    <integer name="counter_value_1">1</integer>
+    <integer name="counter_value_2">2</integer>
+    <integer name="counter_value_3">3</integer>
+    <integer name="counter_value_4">4</integer>
+    <integer name="counter_value_5">5</integer>
+    <integer name="counter_value_6">6</integer>
+    <integer name="counter_value_7">7</integer>
+</resources>

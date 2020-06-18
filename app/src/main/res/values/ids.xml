@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Q4_ch1" type="id" />
+    <item name="Q4_ch2" type="id" />
+    <item name="Q4_ch3" type="id" />
+    <item name="Q4_ch4" type="id" />
+    <item name="Q4_ch5" type="id" />
+    <item name="Q4_ch6" type="id" />
+    <item name="Q6_ch1" type="id" />
+    <item name="Q6_ch2" type="id" />
+    <item name="Q6_ch3" type="id" />
+    <item name="Q6_ch4" type="id" />
+    <item name="Q6_ch5" type="id" />
+    <item name="Q6_ch6" type="id" />
+    <item name="Q7_ch1" type="id" />
+    <item name="Q7_ch2" type="id" />
+    <item name="Q7_ch3" type="id" />
+    <item name="Q7_ch4" type="id" />
+    <item name="Q7_ch5" type="id" />
+    <item name="Q7_ch6" type="id" />
+    <item name="Q8_ch1" type="id" />
+    <item name="Q8_ch2" type="id" />
+    <item name="Q8_ch3" type="id" />
+    <item name="Q8_ch4" type="id" />
+    <item name="Q11_ch1" type="id" />
+    <item name="Q11_ch2" type="id" />
+    <item name="Q11_ch3" type="id" />
+    <item name="Q11_ch4" type="id" />
+    <item name="Q11_ch5" type="id" />
+    <item name="Q12_ch1" type="id" />
+    <item name="Q12_ch2" type="id" />
+    <item name="Q12_ch3" type="id" />
+    <item name="Q12_ch4" type="id" />
+    <item name="Q12_ch5" type="id" />
+    <item name="Q14_ch1" type="id" />
+    <item name="Q14_ch2" type="id" />
+    <item name="Q14_ch3" type="id" />
+    <item name="Q14_ch4" type="id" />
+    <item name="Q14_ch5" type="id" />
+
+</resources>

@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".WordTest">
+
+        <TextView
+            android:id="@+id/countdown_number"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="65dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:fontFamily="@font/acme"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/word_test_question_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.2" />
+
+        <TextView
+            android:id="@+id/word_test_question_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:gravity="center_horizontal"
+            android:text="@string/WT_Q_1"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.131"
+            tools:ignore="RtlCompat" />
+
+        <RadioGroup
+            android:id="@+id/WT_RG_Q1"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/word_test_question_1"
+            app:layout_constraintVertical_bias="0.015">
+
+            <RadioButton
+                android:id="@+id/WT_Q1_CH_A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/WT_Q_1_C1" />
+
+            <RadioButton
+                android:id="@+id/WT_Q1_CH_B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/WT_Q_1_C2" />
+
+            <RadioButton
+                android:id="@+id/WT_Q1_CH_C"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/WT_Q_1_C3" />
+
+            <RadioButton
+                android:id="@+id/WT_Q1_CH_D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/WT_Q_1_C4" />
+
+            <RadioButton
+                android:id="@+id/WT_Q1_CH_E"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/WT_Q_1_C5"
+                android:textAlignment="inherit" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/word_test_question_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:gravity="center_horizontal"
+            android:text="@string/WT_Q_2"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/WT_RG_Q1"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="RtlCompat" />
+
+        <RadioGroup
+            android:id="@+id/WT_RG_Q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/word_test_question_2"
+            app:layout_constraintVertical_bias="0.011">
+
+            <RadioButton
+                android:id="@+id/WT_Q2_CH_A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/WT_Q_2_C1" />
+
+            <RadioButton
+                android:id="@+id/WT_Q2_CH_B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/WT_Q_2_C2" />
+
+            <RadioButton
+                android:id="@+id/WT_Q2_CH_C"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/WT_Q_2_C3" />
+
+            <RadioButton
+                android:id="@+id/WT_Q2_CH_D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/WT_Q_2_C4" />
+
+            <RadioButton
+                android:id="@+id/WT_Q2_CH_E"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/WT_Q_2_C5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/word_test_question_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/WT_Q_3"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/WT_RG_Q2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <RadioGroup
+            android:id="@+id/WT_RG_Q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/word_test_question_4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/word_test_question_3">
+
+            <RadioButton
+                android:id="@+id/WT_Q3_CH_A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/WT_Q_3_C1" />
+
+            <RadioButton
+                android:id="@+id/WT_Q3_CH_B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/WT_Q_3_C2" />
+
+            <RadioButton
+                android:id="@+id/WT_Q3_CH_C"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/WT_Q_3_C3" />
+
+            <RadioButton
+                android:id="@+id/WT_Q3_CH_D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/WT_Q_3_C4" />
+
+            <RadioButton
+                android:id="@+id/WT_Q3_CH_E"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/WT_Q_3_C5"
+                android:fontFamily="@font/acme"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/word_test_question_4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/WT_Q_4"
+            android:fontFamily="@font/acme"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/WT_RG_Q3" />
+
+        <RadioGroup
+            android:id="@+id/WT_RG_Q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/word_test_question_4"
+           >
+            <RadioButton
+                android:id="@+id/WT_Q4_CH_A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/WT_Q_4_C1"
+                android:fontFamily="@font/acme"
+                />
+            <RadioButton
+                android:id="@+id/WT_Q4_CH_B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/WT_Q_4_C2"
+                android:fontFamily="@font/acme"
+                />
+            <RadioButton
+                android:id="@+id/WT_Q4_CH_C"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/WT_Q_4_C3"
+                android:fontFamily="@font/acme"
+                />
+            <RadioButton
+                android:id="@+id/WT_Q4_CH_D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/WT_Q_4_C4"
+                android:fontFamily="@font/acme"
+                />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/word_test_question_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/WT_RG_Q4"
+            android:text="@string/WT_Q_5"
+            android:fontFamily="@font/acme"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            />
+
+        <LinearLayout
+            android:id="@+id/linear_layout_for_Q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/word_test_question_5"
+            app:layout_constraintBottom_toTopOf="@id/word_test_question_6"
+            >
+            <EditText
+                android:id="@+id/input_for_Q5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:hint="enter your answer here"
+                android:fontFamily="@font/acme"
+                android:layout_marginLeft="30dp"
+                />
+
+            <Button
+                android:id="@+id/Q5_button"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="enter"
+                android:fontFamily="@font/acme"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/word_test_question_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="@string/WT_Q_6"
+            android:fontFamily="@font/acme"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@id/WT_RG_Q6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linear_layout_for_Q5" />
+
+        <RadioGroup
+            android:id="@+id/WT_RG_Q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/word_test_question_6">
+            <CheckBox
+                android:id="@+id/WT_Q6_CH_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/WT_Q_6_C1"
+                android:fontFamily="@font/acme"
+                android:onClick="onChecked"
+
+                />
+            <CheckBox
+                android:id="@+id/WT_Q6_CH_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/WT_Q_6_C2"
+                android:fontFamily="@font/acme"
+                android:onClick="onChecked"
+
+                />
+            <CheckBox
+                android:id="@+id/WT_Q6_CH_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:onClick="onChecked"
+                android:text="@string/WT_Q_6_C3"
+                android:fontFamily="@font/acme"
+
+                />
+            <CheckBox
+                android:id="@+id/WT_Q6_CH_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/WT_Q_6_C4"
+                android:fontFamily="@font/acme"
+                android:onClick="onChecked"
+
+                />
+            <CheckBox
+                android:id="@+id/WT_Q6_CH_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/WT_Q_6_C5"
+                android:fontFamily="@font/acme"
+                android:onClick="onChecked"
+
+                />
+            <CheckBox
+                android:id="@+id/WT_Q6_CH_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/WT_Q_6_C6"
+                android:fontFamily="@font/acme"
+                android:onClick="onChecked"
+
+                />
+
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/word_test_question_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/WT_RG_Q6"
+            android:text="@string/WT_Q_7"
+            android:fontFamily="@font/acme"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/word_test_question_7">
+
+            <EditText
+                android:id="@+id/input_for_Q7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="enter your answer here"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/colorBlack"
+                android:layout_marginLeft="30dp"
+                />
+
+            <Button
+                android:id="@+id/Q7_button"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="enter"
+                android:fontFamily="@font/acme"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+        <Button
+            android:id="@+id/show_score"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/score_text_view"
+            android:text="show score" />
+
+        <TextView
+            android:id="@+id/score_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+            -->
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

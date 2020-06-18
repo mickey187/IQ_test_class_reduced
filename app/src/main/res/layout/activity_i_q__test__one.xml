@@ -1,0 +1,2598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".IQ_Test_One">
+        <LinearLayout
+            android:id="@+id/parent_linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/Q1_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+   android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/iq_test_q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iq_test_Q1"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:fontFamily="@font/acme"
+
+            />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_iq_test_q1"
+            android:scaleType="centerInside"
+          android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            />
+        <EditText
+            android:id="@+id/iq_test_q1_input"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/enter_your_answer_here"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+           android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/iq_test_q1_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="enter"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/Q2_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/iq_test_q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iq_test_Q2"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/acme"
+            />
+        <EditText
+            android:id="@+id/iq_test_q2_input"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/enter_your_answer_here"
+            android:layout_marginTop="30dp"
+
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/iq_test_q2_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="enter"
+            />
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/Q3_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/iq_test_q3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q3"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"
+                        android:fontFamily="@font/acme"
+                        />
+                    <EditText
+                        android:id="@+id/iq_test_q3_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                       android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q3_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        />
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/iq_test_q4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/iq_test_Q4"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"
+                        android:fontFamily="@font/acme"
+                        />
+                   <CheckBox
+                       android:id="@+id/iq_test_q4_ch1"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/iq_test_Q4_CH1"
+                       android:textSize="18sp"
+                       android:textColor="@color/colorBlack"
+                       android:fontFamily="@font/acme"
+                       android:layout_marginLeft="50dp"
+                       />
+                    <CheckBox
+                        android:id="@+id/iq_test_q4_ch2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q4_CH2"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"
+                        android:fontFamily="@font/acme"
+                        android:onClick="checkForQuestion4"
+                        android:layout_marginLeft="50dp"
+                        />
+                    <CheckBox
+                        android:id="@+id/iq_test_q4_ch3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q4_CH3"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"
+                        android:fontFamily="@font/acme"
+                        android:layout_marginLeft="50dp"
+                        />
+                    <CheckBox
+                        android:id="@+id/iq_test_q4_ch4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q4_CH4"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"
+                        android:fontFamily="@font/acme"
+                        android:onClick="checkForQuestion4"
+                        android:layout_marginLeft="50dp"
+                        />
+                    <CheckBox
+                        android:id="@+id/iq_test_q4_ch5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q4_CH5"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"
+                        android:fontFamily="@font/acme"
+                        android:layout_marginLeft="50dp"
+                        />
+                    <CheckBox
+                        android:id="@+id/iq_test_q4_ch6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q4_CH6"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"
+                        android:fontFamily="@font/acme"
+                        android:layout_marginLeft="50dp"
+                        />
+
+                </LinearLayout>
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+            
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+
+
+                <LinearLayout
+               style="@style/linear_layout_vertical">
+
+                    <TextView
+                        android:id="@+id/iq_test_q5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q5"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/acme"/>
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/iq_test_q5"
+                        android:layout_gravity="center"/>
+
+                    <EditText
+                        android:id="@+id/iq_test_q5_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q5_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        />
+
+            </LinearLayout>
+                
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/iq_test_q6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q6"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/acme"/>
+                    <RadioGroup
+                        android:id="@+id/iq_test_q6_RG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/iq_test_q6_ch1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q6_CH_1"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/acme"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q6_ch2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q6_CH_2"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/acme"
+                            android:onClick="checkForQuestion6"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q6_ch3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q6_CH_3"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/acme"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q6_ch4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q6_CH_4"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/acme"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q6_ch5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q6_CH_5"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/acme"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q6_ch6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q6_CH_6"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/acme"
+                            android:layout_marginLeft="50dp"
+                            />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/iq_test_q7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q7"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"
+                        android:fontFamily="@font/acme"
+                        />
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q7_additional1"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"
+                        android:fontFamily="@font/acme"
+                        android:layout_marginTop="15dp"
+                        />
+                    <RadioGroup
+                        android:id="@+id/iq_test_q7_RG"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="15dp"
+                        >
+
+                        <RadioButton
+                            android:id="@+id/iq_test_q7_ch1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q7_part1_CH1"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/acme"
+                            android:onClick="checkQuestion7"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q7_ch2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q7_part1_CH2"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/acme"/>
+                        <RadioButton
+                            android:id="@+id/iq_test_q7_ch3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q7_part1_CH3"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/acme"/>
+
+                    </RadioGroup>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q7_additional2"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/acme"
+                        android:layout_marginTop="15dp"
+                        />
+                    <RadioGroup
+                        android:id="@+id/iq_test_q7_RG2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="15dp">
+
+                        <RadioButton
+                            android:id="@+id/iq_test_q7_ch4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q7_part2_CH1"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/acme"/>
+                        <RadioButton
+
+                            android:id="@+id/iq_test_q7_ch5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q7_part2_CH2"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/acme"
+                            android:onClick="checkQuestion7"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q7_ch6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q7_part2_CH3"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/acme"/>
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="8."
+                        style="@style/font_style"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/iq_test_q8"
+                        android:scaleType="fitCenter"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q8"
+                        style="@style/font_style"
+                        android:layout_marginBottom="15dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        >
+                        <ImageButton
+                            android:id="@+id/iq_test_q8_ch1"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/q8_ch1"
+                            android:scaleType="fitCenter"
+                            android:layout_gravity="left"
+                            />
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q8_ch2"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/q8_ch2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        >
+                        <ImageButton
+                            android:id="@+id/iq_test_q8_ch3"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/q8_ch3"
+                            android:scaleType="fitCenter"
+                            android:layout_gravity="left"
+                            />
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q8_ch4"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/q8_ch4" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q9"
+                        style="@style/font_style" />
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q9"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        />
+                    <EditText
+                        android:id="@+id/iq_test_q9_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q9_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_10"
+                        style="@style/font_style"/>
+
+                    <EditText
+                        android:id="@+id/iq_test_q10_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+
+                    <EditText
+                        android:id="@+id/iq_test_q10_input2"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+
+                    <Button
+                        android:id="@+id/iq_test_q10_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_11"
+                        style="@style/font_style"/>
+                    <RadioGroup
+                        android:id="@+id/iq_test_q11_RG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <RadioButton
+                            android:id="@+id/iq_test_q11_ch1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_11_CH1"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q11_ch2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_11_CH2"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q11_ch3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_11_CH3"
+                            style="@style/font_style"
+                            android:onClick="checkQuestion11"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q11_ch4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_11_CH4"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q11_ch5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_11_CH5"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"
+                            />
+
+                    </RadioGroup>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_12"
+                        style="@style/font_style"/>
+                    <RadioGroup
+                        android:id="@+id/iq_test_q12_RG"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <RadioButton
+                            android:id="@+id/iq_test_q12_ch1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_12_CH1"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q12_ch2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_12_CH2"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q12_ch3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_12_CH3"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q12_ch4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_12_CH4"
+                            style="@style/font_style"
+                            android:onClick="checkQuestion12"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q12_ch5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_12_CH5"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_13"
+                        style="@style/font_style"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q13"
+                        android:scaleType="fitCenter"/>
+                    <EditText
+                        android:id="@+id/iq_test_q13_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q13_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_14"
+                        style="@style/font_style"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        >
+                        <ImageButton
+                            android:id="@+id/iq_test_q14_ch1"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/q14_ch1"
+                            android:scaleType="fitCenter"
+                            android:layout_gravity="end"
+                            />
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q14_ch2"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/q14_ch2" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        >
+                        <ImageButton
+                            android:id="@+id/iq_test_q14_ch3"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/q14_ch3"
+                            android:scaleType="fitCenter"
+                            android:layout_gravity="left"
+                            />
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q14_ch4"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/q14_ch4" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q14_ch5"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/q14_ch5"
+                            android:scaleType="fitCenter"
+                            android:layout_gravity="center"/>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_15"
+                        style="@style/font_style"/>
+
+                    <EditText
+                        android:id="@+id/iq_test_q15_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <EditText
+                        android:id="@+id/iq_test_q15_input2"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q15_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_16"
+                        style="@style/font_style"/>
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q16"
+                        style="@style/font_style"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"/>
+
+                    <EditText
+                        android:id="@+id/iq_test_q16_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q16_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_17"
+                        style="@style/font_style"/>
+                    <RadioGroup
+                        android:id="@+id/iq_test_q17_RG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <RadioButton
+                            android:id="@+id/iq_test_q17_ch1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_17_CH1"
+                            android:onClick="checkQuestion17"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"/>
+
+                        <RadioButton
+                            android:id="@+id/iq_test_q17_ch2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_17_CH2"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"/>
+
+                        <RadioButton
+                            android:id="@+id/iq_test_q17_ch3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_17_CH3"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"/>
+
+                        <RadioButton
+                            android:id="@+id/iq_test_q17_ch4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_17_CH4"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"/>
+
+                        <RadioButton
+                            android:id="@+id/iq_test_q17_ch5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_17_CH5"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"/>
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="18."
+                        style="@style/font_style"/>
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q18"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_18"
+                        style="@style/font_style"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+                        <ImageButton
+                            android:id="@+id/iq_test_q18_ch1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q18_ch1"
+                            android:scaleType="fitCenter"
+                            android:layout_gravity="center"/>
+                        <ImageButton
+                            android:id="@+id/iq_test_q18_ch2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q18_ch2"
+                            android:scaleType="fitCenter"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+                        <ImageButton
+                            android:id="@+id/iq_test_q18_ch3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q18_ch3"
+                            android:scaleType="fitCenter"
+                            android:layout_gravity="center"/>
+                        <ImageButton
+                            android:id="@+id/iq_test_q18_ch4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q18_ch4"
+                            android:scaleType="fitCenter"
+                            android:layout_gravity="center"/>
+                        <ImageButton
+                            android:id="@+id/iq_test_q18_ch5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q18_ch5"
+                            android:scaleType="fitCenter"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_19"
+                        style="@style/font_style"/>
+
+                    <RadioGroup
+                        android:id="@+id/iq_test_q19_RG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <CheckBox
+                            android:id="@+id/iq_test_q19_ch1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_19_CH1"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"/>
+
+                        <CheckBox
+                            android:id="@+id/iq_test_q19_ch2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_19_CH2"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"/>
+
+                        <CheckBox
+                            android:id="@+id/iq_test_q19_ch3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_19_CH3"
+                            android:onClick="checkForQuestion19"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"/>
+
+                        <CheckBox
+                            android:id="@+id/iq_test_q19_ch4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_19_CH4"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"/>
+
+                        <CheckBox
+                            android:id="@+id/iq_test_q19_ch5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_19_CH5"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"/>
+                        <CheckBox
+                            android:id="@+id/iq_test_q19_ch6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q_19_CH6"
+                            android:onClick="checkForQuestion19"
+                            style="@style/font_style"
+                            android:layout_marginLeft="50dp"/>
+
+                    </RadioGroup>
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_20"
+                        style="@style/font_style"/>
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q20"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"/>
+                    <EditText
+                        android:id="@+id/iq_test_q20_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q20_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="21."
+                        style="@style/font_style"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q21"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="is to"
+                        style="@style/font_style"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q21_ch1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q21_ch1"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q21_ch2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q21_ch2"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q21_ch3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q21_ch3"
+                            android:scaleType="fitCenter"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q21_ch4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q21_ch4"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q21_ch5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q21_ch5"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q21_ch6"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q21_ch6"
+                            android:scaleType="fitCenter"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_22"
+                        style="@style/font_style"/>
+                    <EditText
+                        android:id="@+id/iq_test_q22_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q22_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="3dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <TextView
+                    android:text="@string/iq_test_Q_23"
+                    style="@style/font_style"/>
+                    <RadioGroup
+                        android:id="@+id/iq_test_q23_RG"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <RadioButton
+                            android:id="@+id/iq_test_q23_ch1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q23_CH1"
+                            style="@style/font_style2"/>
+                        <RadioButton
+                            android:id="@+id/iq_test_q23_ch2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q23_CH2"
+                            android:onClick="checkForQuestion23"
+                            style="@style/font_style2"/>
+                        <RadioButton
+                            android:id="@+id/iq_test_q23_ch3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q23_CH3"
+                            style="@style/font_style2"/>
+                        <RadioButton
+                            android:id="@+id/iq_test_q23_ch4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q23_CH4"
+                            style="@style/font_style2"/>
+                        <RadioButton
+                            android:id="@+id/iq_test_q23_ch5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_Q23_CH5"
+                            style="@style/font_style2"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/card_style">
+
+                <LinearLayout
+               style="@style/linear_layout_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="24."
+                        style="@style/font_style"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q24"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_24"
+                        style="@style/font_style"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q24_ch1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q24_ch1"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q24_ch2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q24_ch2"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q24_ch3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q24_ch3"
+                            android:scaleType="fitCenter"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q24_ch4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q24_ch4"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q24_ch5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q24_ch5"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q24_ch6"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q24_ch6"
+                            android:scaleType="fitCenter"
+                            />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/card_style">
+
+
+                <LinearLayout
+                    style="@style/linear_layout_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_25"
+                        style="@style/font_style"/>
+                    <EditText
+                        android:id="@+id/iq_test_q25_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q25_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+               style="@style/card_style">
+
+                <LinearLayout
+                    style="@style/linear_layout_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_26"
+                        style="@style/font_style"/>
+                    <EditText
+                        android:id="@+id/iq_test_q26_input"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:hint="@string/enter_your_answer_here"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    />
+                    <EditText
+                        android:id="@+id/iq_test_q26_input2"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q26_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+               style="@style/card_style">
+
+                <LinearLayout
+                  style="@style/linear_layout_vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="27."
+                        style="@style/font_style"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q27"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="is to"
+                        style="@style/font_style"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q27_ch1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q27_ch1"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q27_ch2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q27_ch2"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q27_ch3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q27_ch3"
+                            android:scaleType="fitCenter"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q27_ch4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q27_ch4"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q27_ch5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q27_ch5"
+                            android:scaleType="fitCenter"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+              style="@style/card_style">
+
+                <LinearLayout
+                    style="@style/linear_layout_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_28"
+                        style="@style/font_style"/>
+
+                    <EditText
+                        android:id="@+id/iq_test_q28_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q28_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/card_style">
+
+                <LinearLayout
+                   style="@style/linear_layout_vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="29."
+                        style="@style/font_style"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q29"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_29"
+                        style="@style/font_style"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q29_ch1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q29_ch1"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q29_ch2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q29_ch2"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q29_ch3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q29_ch3"
+                            android:scaleType="fitCenter"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q29_ch4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q29_ch4"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q29_ch5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q29_ch5"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q29_ch6"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q29_ch6"
+                            android:scaleType="fitCenter"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/card_style">
+
+                <LinearLayout
+                    style="@style/linear_layout_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_30"
+                        style="@style/font_style"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q30"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"/>
+                    <EditText
+                        android:id="@+id/iq_test_q30_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q30_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/card_style">
+
+                <LinearLayout
+                   style="@style/linear_layout_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_31"
+                        style="@style/font_style"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q31"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_31_1"
+                        style="@style/font_style"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q31_1"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        />
+
+                    <EditText
+                        android:id="@+id/iq_test_q31_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q31_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/card_style">
+
+                <LinearLayout
+                    style="@style/linear_layout_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_32"
+                        style="@style/font_style"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q32_ch1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q32_ch1"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q32_ch2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q32_ch2"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q32_ch3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q32_ch3"
+                            android:scaleType="fitCenter"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q32_ch4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q32_ch4"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q32_ch5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q32_ch5"
+                            android:scaleType="fitCenter"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/card_style">
+
+
+                <LinearLayout
+                    style="@style/linear_layout_vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_33"
+                        style="@style/font_style"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q33"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        />
+
+                    <EditText
+                        android:id="@+id/iq_test_q33_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q33_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+               style="@style/card_style">
+
+
+
+                <LinearLayout
+                   style="@style/linear_layout_vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="34."
+                        style="@style/font_style"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q34"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_34"
+                        style="@style/font_style"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q34_ch1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q34_ch1"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q34_ch2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q34_ch2"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q34_ch3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q34_ch3"
+                            android:scaleType="fitCenter"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q34_ch4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q34_ch4"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q34_ch5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q34_ch5"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q34_ch6"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q34_ch6"
+                            android:scaleType="fitCenter"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/card_style">
+
+                <LinearLayout
+                    style="@style/linear_layout_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_35"
+                        style="@style/font_style"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q35"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"
+                        />
+
+                    <EditText
+                        android:id="@+id/iq_test_q35_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q35_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+              style="@style/card_style">
+
+                <LinearLayout
+                    style="@style/linear_layout_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_36"
+                        style="@style/font_style"/>
+
+                    <EditText
+                        android:id="@+id/iq_test_q36_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q36_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+               style="@style/card_style">
+
+                <LinearLayout
+                    style="@style/linear_layout_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="37."
+                        style="@style/font_style"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q37"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/iq_test_Q_37"
+                        style="@style/font_style"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q37_ch1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q37_ch1"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q37_ch2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q37_ch2"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q37_ch3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q37_ch3"
+                            android:scaleType="fitCenter"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+
+                        <ImageButton
+                            android:id="@+id/iq_test_q37_ch4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q37_ch4"
+                            android:scaleType="fitCenter"
+                            />
+                        <ImageButton
+                            android:id="@+id/iq_test_q37_ch5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/q37_ch5"
+                            android:scaleType="fitCenter"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/card_style">
+
+
+                <LinearLayout
+                   style="@style/linear_layout_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_38"
+                        style="@style/font_style"/>
+
+
+
+                    <EditText
+                        android:id="@+id/iq_test_q38_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="Joe"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <EditText
+                        android:id="@+id/iq_test_q38_input2"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="Mo"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <EditText
+                        android:id="@+id/iq_test_q38_input3"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="Flo"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q38_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/card_style">
+
+                <LinearLayout
+                    style="@style/linear_layout_vertical">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_39"
+                        style="@style/font_style"/>
+
+                    <RadioGroup
+                        android:id="@+id/iq_test_q39_RG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/iq_test_q39_ch1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_39_CH1"
+                            style="@style/font_style"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q39_ch2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_39_CH2"
+                            style="@style/font_style"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q39_ch3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_39_CH3"
+                            style="@style/font_style"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q39_ch4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_39_CH4"
+                            style="@style/font_style"
+                            android:onClick="checkForQuestion39"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q39_ch5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_39_CH5"
+                            style="@style/font_style"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q39_ch6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_39_CH6"
+                            style="@style/font_style"
+                            />
+                        <RadioButton
+                            android:id="@+id/iq_test_q39_ch7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iq_test_39_CH7"
+                            style="@style/font_style"
+                            />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/card_style">
+
+                <LinearLayout
+                    style="@style/linear_layout_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iq_test_Q_40"
+                        style="@style/font_style"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/q40"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center"/>
+
+                    <EditText
+                        android:id="@+id/iq_test_q40_input"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/enter_your_answer_here"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        />
+                    <Button
+                        android:id="@+id/iq_test_q40_button"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="enter"
+                        android:layout_gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/card_style">
+
+                <LinearLayout
+                   style="@style/linear_layout_vertical">
+
+                    <TextView
+                        android:id="@+id/score"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        style="@style/font_style"/>
+                    <Button
+                        android:id="@+id/show_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show score"
+                        />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <FrameLayout
+            android:id="@+id/frame2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/parent_linear"
+            app:layout_constraintBottom_toBottomOf="@id/frame1">
+
+
+
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/frame1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/frame2"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <Button
+                android:id="@+id/click_me"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="click"/>
+
+        </FrameLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+
+
+
