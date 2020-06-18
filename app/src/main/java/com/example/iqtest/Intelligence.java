@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import android.annotation.SuppressLint;
+import android.content.ContentValues;
 import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.GestureDetector;
@@ -48,6 +50,7 @@ public class Intelligence extends AppCompatActivity  {
     LinearLayout question_container;
     Context context;
     int counter = 0;
+    SQLiteDatabase sqLiteDatabase;
 
 
     CardView cardView;
@@ -61,6 +64,8 @@ public class Intelligence extends AppCompatActivity  {
 
 
         cardView = findViewById(R.id.materialCardView);
+        IQDbHelper iqDbHelper = new IQDbHelper(this);
+        sqLiteDatabase = iqDbHelper.getWritableDatabase();
 
 
 
@@ -1931,12 +1936,31 @@ public class Intelligence extends AppCompatActivity  {
                     question_container.addView(q40_button);
                 }
 
+                else if (counter == 41){
+
+                    image_container.removeAllViews();
+                    question_container.removeAllViews();
+
+                    if (user_answers.size() >= 1){
+
+                        ContentValues cv = new ContentValues();
+                        cv.put(IQContract.IQEntry.COLUMN_CATEGORY, "IQ Test");
+                        cv.put(IQContract.IQEntry.RAW_SCORE, user_answers.size());
+                        sqLiteDatabase.insert(IQContract.IQEntry.TABLE_NAME, null, cv);
+
+                    }
+
+
+
+                }
+
 
 
             }
 
 
         });
+
 
 
         show_score.setOnClickListener(new View.OnClickListener() {
